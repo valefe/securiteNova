@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal de Sécurité Nova</title>
+    <meta name='description' content=''>
+    <meta name='author' content='Valentina Fajardo'>
+    <link rel='stylesheet' href='css/estilos.css'>
+    <link rel='icon' href='favicon.ico'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<body>
+    <nav id="menu">
+        <div class="containerMenu">
+            <div class="menu_overlay">
+              <i class="fas fa-times"></i>
+              <ul class="list">
+                <li><a href="#">home</a></li>
+                <li><a href="#">mapa en tiempo real</a></li>
+                <li><a href="#">cloud</a></li>
+                <li><a href="#">consejos</a></li>
+                <li><a href="mododemo.html">personalizar modo demo</a></li>
+              </ul>
+            </div>
+            <div class="landing_page">
+              <div class="menu">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+          </div>
+          
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+          <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+       
+    </nav>
+    <main id="contenedorprincipal">
+        <div class="contslider">
+            <ul class="slider">
+                <li id="slide1">
+                    <div class="cajaTextoSlider">
+                    <h1 class="tituloprincipal">UN LUGAR SEGURO</h1>
+                    <p class="infoprincipal">Encuentra las rutas mas seguras de la ciudad, con menos 
+                        reportes de peligro. 
+                        </p>
+                    </div>
+                    <img src="./img/SVG/imgSlide1.svg" alt="">
+                </li>
+                <li id="slide2">
+                    <div class="cajaTextoSlider">
+                    <h1 class="tituloprincipal">evita los lugares con reportes 
+                        de peligro</h1>
+                    <p class="infoprincipal">Te mostraremos los lugares que han sido reportados y 
+                        podrás ver detalle de lo sucedido aquí.
+                        </p>
+                    </div>
+                    <img src="./img/SVG/imgSlide2.svg" alt="">
+                </li>
+                <li id="slide3">
+                    <div class="cajaTextoSlider">
+                    <h1 class="tituloprincipal">Modo DEMO</h1>
+                    <p class="infoprincipal">Este modo protegerá tus apps, de esta manera 
+                        proteges tus cuentas bancarias, contactos, fotos 
+                        y en general tu información personal creando un 
+                        espacio en el que solo se puede salir desde la clave 
+                        normal de tu celular</p>
+                    </div>
+                    <img src="img/SVG/imgSlide3.svg" alt="">
+                </li>
+                <li id="slide4">
+                    <div class="cajaTextoSlider">
+                    <h1 class="tituloprincipal">grabación de los hechos</h1>
+                    <p class="infoprincipal">En modo demo tu cámara se activará para grabar durante 
+                        un minuto, este video se enviará a la nube que puedes 
+                        consultar por la pagina web en cualquier momento.
+                        </p>
+                    </div>
+                    <img src="img/SVG/imgSlide4.svg" alt="">
+                </li>
+                <li id="slide5">
+                    <div class="cajaTextoSlider">
+                    <h1 class="tituloprincipal">mensaje de precaución a 
+                        contactos de emergencia </h1>
+                    <p class="infoprincipal">Se enviará un mensaje predeterminado a tus contactos de 
+                        emergencia.</p>
+                    </div>
+                    <img src="img/SVG/imgSlide5.svg" alt="">
+                </li>
+                <li id="slide6">
+                    <div class="cajaTextoSlider">
+                    <h1 class="tituloprincipal">crea tu llave de seguridad</h1>
+                    <p class="infoprincipal">Esta llave será usada cuando tengas la oportunidad de 
+                        activar manualmente el modo demo.
+                        </p>
+                    </div>
+                    <img src="img/SVG/imgSlide6.svg" alt="">
+                </li>
+                <li id="slide7">
+                    <div class="cajaTextoSlider">
+                    <h1 class="tituloprincipal">ruta de seguridad</h1>
+                    <p class="infoprincipal">Crea una ruta fija de un punto A a un punto B. si en el 
+                        proceso se detecta el abandono de la ruta se activará el 
+                        modo demo instantáneamente</p>
+                    </div>
+                    <img src="img/SVG/imgSlide7.svg" alt="">
+                </li>
+                <li id="slide8">
+                    <div class="cajaTextoSlider">
+                    <h1 class="tituloprincipal">elije tus contactos de 
+                        emergencia </h1>
+                    <p class="infoprincipal">Podrás añadir y eliminar contactos a los que se les 
+                        enviará una notificación </p>
+                    </div>
+                    <img src="img/SVG/imgSlide8.svg" alt="">
+                </li>
+            </ul>
+            <div id="botones">
+                <a class="registro" href="registro.html">REGISTRARME</a>
+                <a class="inicio" href="inicioSesion.html">INICIAR SESIÓN</a>
+            </div>
+            <div id="cajaPuntos">
+            <ul class="puntosN">
+                <li>
+                    <a href="#slide1" class="no" onclick="currentDiv(1)"></a>
+                </li>
+                <li>
+                    <a href="#slide2" class="w3-button demo" onclick="currentDiv(2)"></a>
+                </li>
+                <li>
+                    <a href="#slide3" class="w3-button demo" onclick="currentDiv(3)"></a>
+                </li>
+                <li>
+                    <a href="#slide4" class="w3-button demo" onclick="currentDiv(4)"></a>
+                </li>
+                <li>
+                    <a href="#slide5" class="w3-button demo" onclick="currentDiv(5)"></a>
+                </li>
+                <li>
+                    <a href="#slide6" class="w3-button demo" onclick="currentDiv(6)"></a>
+                </li>
+                <li>
+                    <a href="#slide7" class="w3-button demo" onclick="currentDiv(7)"></a>
+                </li>
+                <li>
+                    <a href="#slide8" class="w3-button demo" onclick="currentDiv(8)"></a>
+                </li>
+            </ul></div>
+        </div>
+        <section id="infoapp">
+            <div id="contenedorinfo">
+                <div class="seccioninfo">
+                    <div class="imginfo"> <img src="img/SVG/imgInfo1.svg" alt=""></div>
+                    <div class="cajaTextoInfo">
+                        <h2 class="subtituloinfo">Vea cómo se desarrollan los incidentes y obtenga la historia real de las personas en la escena.</h2>
+                        <p class="info">Los videos le muestran lo que realmente está sucediendo. Observe cómo se desarrollan los incidentes desde diferentes ángulos y sígalos hasta que se resuelvan.</p>
+                    </div>
+                </div>
+                <div class="seccioninfo">
+                    <div class="cajaTextoInfo">
+                        <h2 class="subtituloinfo">La información rápida y precisa marca una diferencia significativa en las emergencias.</h2>
+                        <p class="info">Las alertas ciudadanas se emiten instantáneamente; esto puede ser horas antes de que se emitan las Alertas Amber para los niños en peligro. Esta velocidad ha sido fundamental para actuar en eventos importantes como secuestros y personas mayores desaparecidas.</p>
+                    </div>
+                    <div class="imginfo"> <img src="img/SVG/imgInfo2.svg" alt=""></div>
+                </div>
+                <div class="seccioninfo">
+                    <div class="imginfo"> <img src="img/SVG/imgInfo3.svg" alt=""></div>
+                    <div class="cajaTextoInfo">
+                        <h2 class="subtituloinfo">Cuando puedas, contribuye a ayudar a resolver una situación.</h2>
+                        <p class="info">Solías tener que llamar a una línea de información de la policía para obtener ayuda. Ahora puede usar esta app para compartir videos e imagenes y compartir actualizaciones relevantes con otros. También puede dejar comentarios, que han ayudado a localizar personas desaparecidas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="infoapp2">
+            <div id="seccionInfo2">
+                <div class="cajatextoinfo2">
+                    <h3 class="subtituloinfo">Los servicios de emergencia y de hospitales salvan vidas con actualizaciones más rápidas.</h3>
+                    <p class="info">Los departamentos pueden usar esta app para dirigir los recursos de manera más efectiva porque pueden ver la intensidad de un incendio en un video en vivo, mientras que los cirujanos de urgencias pueden preparar los quirófanos para los pacientes 20 minutos antes incluso de recibir una llamada de los técnicos de emergencias médicas.</p>
+                </div>
+                <div class="cajatextoinfo2">
+                    <h3 class="subtituloinfo">Aumentar la transparencia entre la ciudad y sus habitantes.</h3>
+                    <p class="info">Creemos que debemos unirnos contra el crimen. Todos merecen estar seguros, y ahora, todos pueden cuidarse mejor unos a otros. Tener información en tiempo real disponible y abierta para todos nos permite a todos tomar decisiones más inteligentes para mantenernos seguros.</p>
+                </div>
+                <div class="cajatextoinfo2">
+                    <h3 class="subtituloinfo">Todos están más seguros cuando todos tienen el mismo acceso.</h3>
+                    <p class="info">Esta app es para todos y, por lo tanto, es completamente independiente. Con esta app, todos los miembros de la comunidad, ya sean residentes o miembros de las fuerzas del orden, tienen el mismo acceso a la aplicación y a su información imparcial.</p>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div class="contlinks">
+                <div class="contenedor">
+                    <div class="lista">
+                        <ul class="columna1">
+                            <li class="links"> contacto</li>
+                            <li> <a href="https://web.whatsapp.com/"> +57 317 766 7185</a></li>
+                            <li> <a href="https://web.whatsapp.com/"> valentina.fajardoa@utadeo.edu.co</a></li>
+                            <li> <a href="https://www.google.com/intl/es-419/gmail/about/"> @vale_fajardo_aponte</a></li>
+                        </ul>
+                        <ul class="columna1">
+                            <li class="links">servicios</li>
+                            <li> <a href="contactanos.html"> contactanos</a></li>
+                            <li> <a href="contactanos.html"> FAQ</a></li>
+                            <li> <a href="contactanos.html"> Guía</a></li>
+                        </ul>
+                        <ul class="columna1">
+                            <li class="links"> información</li>
+                            <li> <a href="bodas.html"> About</a></li>
+                            <li> <a href="bautizos.html"> Trabaja con nosotros</a></li>
+                            <li> <a href="deportes.html"> Politicas de privacidad</a></li>
+                            <li> <a href="tecnologia.html"> Terminos y condiciones</a></li>
+                        </ul>
+                        <div id="redes">
+                            <img src="img/SVG/redes.svg" alt="">
+                            <div>©Valentina Fajardo 2022</div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.13.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBm39Uxpiph4PWF3kHovT6ML0kAbuhpuDA",
+          authDomain: "securite-nova.firebaseapp.com",
+          projectId: "securite-nova",
+          storageBucket: "securite-nova.appspot.com",
+          messagingSenderId: "428118548089",
+          appId: "1:428118548089:web:515b28c1a749f0a80efea8",
+          measurementId: "G-3323DECZTP"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+</body>
+</html>

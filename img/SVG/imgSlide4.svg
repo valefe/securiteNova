@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 241 212.53">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#drop-shadow-4);
+      }
+
+      .cls-2 {
+        filter: url(#drop-shadow-3);
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-4 {
+        filter: url(#drop-shadow-2);
+      }
+
+      .cls-5 {
+        fill: #5fb6e7;
+        fill-rule: evenodd;
+      }
+    </style>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="15"/>
+      <feGaussianBlur result="blur" stdDeviation="30"/>
+      <feFlood flood-color="#5fb6e7" flood-opacity=".8"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="15"/>
+      <feGaussianBlur result="blur-2" stdDeviation="30"/>
+      <feFlood flood-color="#5fb6e7" flood-opacity=".8"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="15"/>
+      <feGaussianBlur result="blur-3" stdDeviation="30"/>
+      <feFlood flood-color="#5fb6e7" flood-opacity=".8"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="drop-shadow-4" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="15"/>
+      <feGaussianBlur result="blur-4" stdDeviation="30"/>
+      <feFlood flood-color="#5fb6e7" flood-opacity=".8"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Capa_1-2" data-name="Capa 1">
+    <g class="cls-3">
+      <path id="Trazado_1066-2" data-name="Trazado 1066-2" class="cls-5" d="M133.72,52.41c-28.13-9.38-58.54-9.38-86.67,0-3.07,1.06-6.42-.56-7.48-3.63-1.06-3.07,.56-6.42,3.63-7.48,.04-.02,.09-.03,.14-.05,30.54-10.18,63.56-10.18,94.1,0,3.07,1.06,4.69,4.41,3.63,7.48-1.05,3.01-4.31,4.64-7.34,3.67h0Z"/>
+    </g>
+    <g class="cls-4">
+      <path id="Trazado_1067-2" data-name="Trazado 1067-2" class="cls-5" d="M140.86,22.1c-32.19-13.8-68.63-13.8-100.82,0-2.94,1.37-6.44,.09-7.81-2.85-1.37-2.94-.09-6.44,2.85-7.81,.11-.05,.22-.1,.33-.14,35.15-15.06,74.93-15.06,110.08,0,3.02,1.19,4.5,4.61,3.31,7.63-1.19,3.02-4.61,4.5-7.63,3.31-.11-.04-.21-.09-.31-.13Z"/>
+    </g>
+    <g class="cls-2">
+      <path id="Trazado_1068-2" data-name="Trazado 1068-2" class="cls-5" d="M143.11,81.17H30.13c-10.15,0-18.37,8.23-18.37,18.37h0v82.85c0,10.15,8.23,18.37,18.37,18.37h112.98c10.15,0,18.37-8.23,18.37-18.37V99.55c0-10.15-8.22-18.37-18.37-18.37h0Zm-112.98-11.76C13.49,69.42,0,82.91,0,99.55v82.85c0,16.64,13.49,30.13,30.13,30.13h112.98c16.64,0,30.13-13.49,30.13-30.13h0V99.55c0-16.64-13.49-30.13-30.13-30.13h0s-112.98,0-112.98,0Z"/>
+    </g>
+    <g class="cls-1">
+      <path id="Trazado_1069-2" data-name="Trazado 1069-2" class="cls-5" d="M224.22,100.9l-30.13,18.29c-.99,.6-1.59,1.67-1.59,2.83v37.92c0,1.16,.6,2.23,1.59,2.83l30.13,18.29c1.56,.95,3.6,.45,4.55-1.11,.31-.52,.48-1.11,.48-1.72V103.73c0-1.83-1.48-3.31-3.31-3.31-.61,0-1.2,.17-1.72,.48Zm-36.23,8.24c-4.5,2.73-7.24,7.61-7.24,12.88v37.92c0,5.26,2.75,10.15,7.25,12.88l30.13,18.29c7.11,4.32,16.38,2.05,20.69-5.06,1.43-2.36,2.19-5.06,2.19-7.82V103.73c0-8.32-6.74-15.06-15.06-15.07-2.76,0-5.46,.76-7.82,2.19l-30.13,18.29Z"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página principal de Sécurité Nova</title>
+    <meta name='description' content=''>
+    <meta name='author' content='Valentina Fajardo'>
+    <link rel='stylesheet' href='css/estilos.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-latest.js" crossorigin="anonymous"></script>
+    <script src="./firebaseConfig/registro.js" crossorigin="anonymous" type="module"></script>
+</head>
+<body>
+    <nav id="menu">
+        <div class="containerMenu">
+            <div class="menu_overlay">
+              <i class="fas fa-times"></i>
+              <ul class="list">
+                <li><a href="index.html">home</a></li>
+                <li><a href="#">mapa en tiempo real</a></li>
+                <li><a href="#">cloud</a></li>
+                <li><a href="#">consejos</a></li>
+                <li><a href="mododemo.html">personalizar modo demo</a></li>
+              </ul>
+            </div>
+            <div class="landing_page">
+              <div class="menu">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+          </div>
+          
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+          <script src="https://kit.fontawesome.com/a7e9f794eb.js" crossorigin="anonymous"></script>
+    </nav>
+    
+    <section class="contenedorInicio contReg">
+        <h1 class="titulosFormularios">CREAR CUENTA</h1>
+        <form id="registroId">
+            <div class="containerInicio">
+                <div class="formularior" >
+                    <label for="unameRegistro"><b>Nombre Completo</b></label>
+                    <input id="unameRegistro" type="text" placeholder="Nombre y apellidos" name="uname" required>
+                    <label for="unameRegistro2"><b>E-mail</b></label>
+                    <input id="unameRegistro2" type="email" placeholder="ejemplo@mail.com" name="uname" required>
+                </div>
+                <div class="formularior">
+                    <label for="pswRegistro"><b>Contraseña</b></label>
+                    <input id="pswRegistro" type="password" placeholder="Al menos 8 carasteres" name="uname" required>
+                
+                    <label for="pswRegistro2"><b>Confirmar Contraseña</b></label>
+                    <input id="pswRegistro2" type="password" placeholder="Al menos 8 carasteres" name="psw" required>
+                    
+
+                </div>
+            </div>
+            <div class="tyc">
+                <label class="checkbox2">
+                    <input type="checkbox" checked="checked" name="remember"> Acepto <a href="#">Terminos y condiciones</a>
+                </label>
+                <button type="submit">REGISTRARME</button>
+            </div>
+            <span> <a href="#">¿Olvidó la contraseña?</a></span>
+            <hr>
+            <span class="centrar"> ¿Ya tienes una cuenta? <br> <a href="inicioSesion.html">Inicia sesión</a></span>
+        </form>
+    </section>
+    <script src="./js/app.js"></script>
+</body>
+</html>
